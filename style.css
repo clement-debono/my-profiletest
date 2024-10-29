@@ -1,0 +1,89 @@
+/* Colors and fonts*/
+  body{
+  	background: rgb(230, 230, 230 );
+  	color:navy;
+  	font-family: Helvetica;
+  	font-size: 22px;
+  	font-weight: lighter;
+  }
+
+  h1, h2, h3{
+    font-family: courrier ;
+}
+h2{
+    color: navy;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 4;
+}
+p{
+    color: mediumpurple;
+ font-family: Cambria;
+ font-size: 18px;
+ line-height: 2;
+ letter letter-spacing: 3;
+}
+a {
+  color: #7b44d0;
+  text-decoration:none;
+  transition: color 0.3s ease;
+  font-size: 16px;
+} 
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Cutom design with class*/
+.container {
+    width: 650px;
+    margin: 50px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.box-white {
+    background-color: white;
+    padding: 10px;
+    box box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+ }
+.img-circle {
+    border-radius: 40%;
+}
+.btn-purple {
+    background-color:#7b44d0;
+    color:white;
+    padding: 10px 35px;
+    border-radius: 50px;
+}
+.btn-purple:hover {
+    background-color:black;
+    color:white;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 15px;
+}
+.list-inline i {
+    font-size: 35px;
+}
